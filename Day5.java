@@ -1,3 +1,7 @@
+// This code is derived from my first attempt using the shell.
+// Part 1: `cat input-5.1 | egrep -v 'ab|cd|pq|xy' | egrep '(.*[aeiou]){3}' | egrep '(.)\1' | wc`
+// Part 2: `cat input-5.1 | egrep '(..).*\1' | egrep '(.).\1' | wc
+
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
